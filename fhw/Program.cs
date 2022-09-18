@@ -39,7 +39,7 @@ void ThreeSymbolArray(string[] array)
     Console.WriteLine();
 }
 
-string[] array = { "hello", "2", "world", ":-)", "1234", "1567", "-2", "computer science", "Russia", "Denmark", "Kazan", "GG", "11", "(_)" };
+string[] array = { "qwerty", "1234", "132", ":-)", "qwert", "qwe", "qw", "qwerty qwerty", "asfdg", "a", "bw", "sadf", "12341231", "(  s)" };
 PrintArray(array);
 Console.WriteLine();
 ThreeSymbolArray(array);
