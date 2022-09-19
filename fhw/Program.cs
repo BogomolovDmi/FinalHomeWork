@@ -21,7 +21,7 @@ void PrintArray(string[] array)
     Console.WriteLine();
 }
 
-void ThreeSymbolArray(string[] array)
+void Selection(string[] array)
 {
     string[] stringarray = new string[array.Length];
     Console.Write("[");
@@ -42,4 +42,4 @@ void ThreeSymbolArray(string[] array)
 string[] array = { "qwerty", "1234", "132", ":-)", "qwert", "qwe", "qw", "qwerty qwerty", "asfdg", "a", "bw", "sadf", "12341231", "(  s)" };
 PrintArray(array);
 Console.WriteLine();
-ThreeSymbolArray(array);
+Selection(array);
